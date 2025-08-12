@@ -1,0 +1,18 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build/dist output folders
+dist/
+build/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore config files sometimes (optional)
+*.config.js
+
+# Ignore JSON files in some folders if you want (optional)
+public/**/*.json
+
+# Ignore any other folder or files you don't want formatted
