@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 
 app.get('/', (_req: Request, res: Response) => {
-	res.json({ message: 'Server is up and running! Tested Succegggssfully' })
+	res.json({ message: 'Server is up and running! Tested Successfully' })
 })
 
 app.get('/api/test', (_req: Request, res: Response) => {
